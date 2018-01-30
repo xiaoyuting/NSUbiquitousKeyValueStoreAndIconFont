@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Taodiandian. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-@interface TBCityIconInfo : NSObject
+@interface GMIconInfo : NSObject
 
 @property (nonatomic, strong) NSString *text;
 @property (nonatomic, assign) NSInteger size;

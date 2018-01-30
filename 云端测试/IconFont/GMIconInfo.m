@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Taodiandian. All rights reserved.
 //
 
-#import "TBCityIconInfo.h"
+#import "GMIconInfo.h"
 
-@implementation TBCityIconInfo
+@implementation GMIconInfo
 
 - (instancetype)initWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color {
     if (self = [super init]) {
@@ -31,11 +31,11 @@
 }
 
 + (instancetype)iconInfoWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color {
-    return [[TBCityIconInfo alloc] initWithText:text size:size color:color];
+    return [[GMIconInfo alloc] initWithText:text size:size color:color];
 }
 
 + (instancetype)iconInfoWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color inset:(UIEdgeInsets)inset {
-    return [[TBCityIconInfo alloc] initWithText:text size:size color:color inset:inset];
+    return [[GMIconInfo alloc] initWithText:text size:size color:color inset:inset];
 }
 
 @end

@@ -15,11 +15,11 @@
 		0E807624201E148800B5961B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E807623201E148800B5961B /* main.m */; };
 		0E80762E201E148800B5961B /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E80762D201E148800B5961B /* ____Tests.m */; };
 		0E807639201E148800B5961B /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E807638201E148800B5961B /* ____UITests.m */; };
-		0E807650201F567200B5961B /* HQFontImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E807648201F567100B5961B /* HQFontImage.m */; };
-		0E807651201F567200B5961B /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E80764A201F567100B5961B /* TBCityIconFont.m */; };
-		0E807652201F567200B5961B /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E80764C201F567100B5961B /* TBCityIconInfo.m */; };
-		0E807653201F567200B5961B /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E80764E201F567100B5961B /* UIImage+TBCityIconFont.m */; };
+		0E807650201F567200B5961B /* GMFontImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E807648201F567100B5961B /* GMFontImage.m */; };
+		0E807651201F567200B5961B /* GMIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E80764A201F567100B5961B /* GMIconFont.m */; };
+		0E807652201F567200B5961B /* GMIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E80764C201F567100B5961B /* GMIconInfo.m */; };
 		0E807654201F567200B5961B /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E80764F201F567100B5961B /* iconfont.ttf */; };
+		870E7A05202006D10015527F /* GMFontImageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 870E7A03202006D10015527F /* GMFontImageList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,15 +56,15 @@
 		0E807634201E148800B5961B /* 云端测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "云端测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E807638201E148800B5961B /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		0E80763A201E148800B5961B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E807647201F567100B5961B /* HQFontImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQFontImage.h; sourceTree = "<group>"; };
-		0E807648201F567100B5961B /* HQFontImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQFontImage.m; sourceTree = "<group>"; };
-		0E807649201F567100B5961B /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
-		0E80764A201F567100B5961B /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
-		0E80764B201F567100B5961B /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
-		0E80764C201F567100B5961B /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
-		0E80764D201F567100B5961B /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
-		0E80764E201F567100B5961B /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		0E807647201F567100B5961B /* GMFontImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMFontImage.h; sourceTree = "<group>"; };
+		0E807648201F567100B5961B /* GMFontImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMFontImage.m; sourceTree = "<group>"; };
+		0E807649201F567100B5961B /* GMIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMIconFont.h; sourceTree = "<group>"; };
+		0E80764A201F567100B5961B /* GMIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMIconFont.m; sourceTree = "<group>"; };
+		0E80764B201F567100B5961B /* GMIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMIconInfo.h; sourceTree = "<group>"; };
+		0E80764C201F567100B5961B /* GMIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMIconInfo.m; sourceTree = "<group>"; };
 		0E80764F201F567100B5961B /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		870E7A03202006D10015527F /* GMFontImageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMFontImageList.m; sourceTree = "<group>"; };
+		870E7A04202006D10015527F /* GMFontImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMFontImageList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,14 +151,14 @@
 		0E807646201F567100B5961B /* IconFont */ = {
 			isa = PBXGroup;
 			children = (
-				0E807647201F567100B5961B /* HQFontImage.h */,
-				0E807648201F567100B5961B /* HQFontImage.m */,
-				0E807649201F567100B5961B /* TBCityIconFont.h */,
-				0E80764A201F567100B5961B /* TBCityIconFont.m */,
-				0E80764B201F567100B5961B /* TBCityIconInfo.h */,
-				0E80764C201F567100B5961B /* TBCityIconInfo.m */,
-				0E80764D201F567100B5961B /* UIImage+TBCityIconFont.h */,
-				0E80764E201F567100B5961B /* UIImage+TBCityIconFont.m */,
+				870E7A04202006D10015527F /* GMFontImageList.h */,
+				870E7A03202006D10015527F /* GMFontImageList.m */,
+				0E807647201F567100B5961B /* GMFontImage.h */,
+				0E807648201F567100B5961B /* GMFontImage.m */,
+				0E807649201F567100B5961B /* GMIconFont.h */,
+				0E80764A201F567100B5961B /* GMIconFont.m */,
+				0E80764B201F567100B5961B /* GMIconInfo.h */,
+				0E80764C201F567100B5961B /* GMIconInfo.m */,
 			);
 			path = IconFont;
 			sourceTree = "<group>";
@@ -298,12 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E807619201E148800B5961B /* ViewController.m in Sources */,
+				870E7A05202006D10015527F /* GMFontImageList.m in Sources */,
 				0E807624201E148800B5961B /* main.m in Sources */,
 				0E807616201E148800B5961B /* AppDelegate.m in Sources */,
-				0E807651201F567200B5961B /* TBCityIconFont.m in Sources */,
-				0E807650201F567200B5961B /* HQFontImage.m in Sources */,
-				0E807653201F567200B5961B /* UIImage+TBCityIconFont.m in Sources */,
-				0E807652201F567200B5961B /* TBCityIconInfo.m in Sources */,
+				0E807651201F567200B5961B /* GMIconFont.m in Sources */,
+				0E807650201F567200B5961B /* GMFontImage.m in Sources */,
+				0E807652201F567200B5961B /* GMIconInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,8 +467,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9VDDJ828HQ;
+				DEVELOPMENT_TEAM = XHK8Y67733;
 				INFOPLIST_FILE = "云端测试/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yutingxiao.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,8 +482,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9VDDJ828HQ;
+				DEVELOPMENT_TEAM = XHK8Y67733;
 				INFOPLIST_FILE = "云端测试/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yutingxiao.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -6,10 +6,10 @@
 //  Copyright © 2016年 Taodiandian. All rights reserved.
 //
 
-#import "HQFontImage.h"
-#import "TBCityIconInfo.h"
+#import "GMFontImage.h"
+#import "GMIconInfo.h"
 
-@implementation HQFontImage
+@implementation GMFontImage
 
 + (NSDictionary*)IconDictionary
 {
@@ -61,13 +61,13 @@
 + (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size color:(UIColor*)color inset:(UIEdgeInsets)inset withBackgroundColor:(UIColor*)backgroundColor
 {
     NSString *code = [self nameToUnicode:name];
-    TBCityIconInfo *info = [TBCityIconInfo iconInfoWithText:code size:size color:color inset:inset];
+    GMIconInfo *info = [GMIconInfo iconInfoWithText:code size:size color:color inset:inset];
     if (backgroundColor) {
         info.backgroundColor = backgroundColor;
     }
     NSString *fontName = [self fontName];
     info.fontName = fontName ? : nil;
-    return [UIImage iconWithInfo:info];
+    return [GMIconFont iconWithInfo:info];
 }
 
 @end

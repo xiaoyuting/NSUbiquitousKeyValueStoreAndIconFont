@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Taodiandian. All rights reserved.
 //
 
-#import "UIImage+TBCityIconFont.h"
-#import "TBCityIconInfo.h"
+
+#import "GMIconInfo.h"
 
 #define TBCityIconInfoMake(text, imageSize, imageColor) [TBCityIconInfo iconInfoWithText:text size:imageSize color:imageColor]
 
-@interface TBCityIconFont : NSObject
+@interface GMIconFont : NSObject
 
 + (UIFont *)fontWithSize: (CGFloat)size;
 + (UIFont *)fontWithSize: (CGFloat)size withFontName:(NSString*)fontName;
 + (void)setFontName:(NSString *)fontName;
-
++ (UIImage *)iconWithInfo:(GMIconInfo *)info;
 @end
